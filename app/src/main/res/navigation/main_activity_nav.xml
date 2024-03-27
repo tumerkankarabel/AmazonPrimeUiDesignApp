@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.tumerkankarabel.amazonprimeuidesignapp.ui.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/withAdsFragment"
+        android:name="com.tumerkankarabel.amazonprimeuidesignapp.ui.fragment.WithAdsFragment"
+        android:label="fragment_with_ads"
+        tools:layout="@layout/fragment_with_ads" />
+    <fragment
+        android:id="@+id/liveFragment"
+        android:name="com.tumerkankarabel.amazonprimeuidesignapp.ui.fragment.LiveFragment"
+        android:label="fragment_live"
+        tools:layout="@layout/fragment_live" />
+    <fragment
+        android:id="@+id/downloadsFragment"
+        android:name="com.tumerkankarabel.amazonprimeuidesignapp.ui.fragment.DownloadsFragment"
+        android:label="fragment_downloads"
+        tools:layout="@layout/fragment_downloads" />
+    <fragment
+        android:id="@+id/findFragment"
+        android:name="com.tumerkankarabel.amazonprimeuidesignapp.ui.fragment.FindFragment"
+        android:label="fragment_find"
+        tools:layout="@layout/fragment_find" />
+</navigation>
